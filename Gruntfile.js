@@ -1,10 +1,4 @@
-/*
- * grunt-oss-up
- * https://github.com/marshalYuan/grun-oss-up
- *
- * Copyright (c) 2014 marshalYuan
- * Licensed under the MIT license.
- */
+
 
 'use strict';
 
