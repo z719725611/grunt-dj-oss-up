@@ -94,7 +94,13 @@ module.exports = function(grunt) {
 					grunt.log.ok('Start uploading file '+ chalk.cyan(o.srcFile));
 					co(function* () {
 						//var timestamp=new Date().getTime();//时间戳
-						var result = yield oss.put(o.srcFile, o.srcFile);
+						var result = yield oss.multipartUpload(o.srcFile, o.srcFile, {
+							progress: function* (p) {
+								var str=Number(p*100).toFixed(0);
+								str+="%";
+								console.log('Progress: ' + str);
+							}
+						});
 						console.log(result);
 						callback();
 					}).catch(function (err) {
