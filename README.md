@@ -1,17 +1,17 @@
-# grunt-ali-oss-upload
+# grunt-dj-oss-up
 
 > A grunt tool for uploading static file to aliyun oss.
 
 ## Getting Started
 
 ```shell
-npm install grunt-ali-oss-upload --save-dev
+npm install grunt-dj-oss-up --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-ali-oss-upload');
+grunt.loadNpmTasks('grunt-dj-oss-up');
 ```
 
 ## The "oss" task

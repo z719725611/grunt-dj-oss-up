@@ -1,5 +1,5 @@
 {
-  "name": "grunt-oss-up",
+  "name": "grunt-ali-oss-upload",
   "description": "A grunt tool for uploading static file to aliyun oss.",
   "homepage": "https://github.com/z719725611/grunt-ali-oss-upload",
   "author": {
